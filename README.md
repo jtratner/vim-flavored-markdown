@@ -32,7 +32,7 @@ git clone git@github.com:jtratner/vim-flavored-markdown.git
 ### Otherwise, copy the file to your syntax folder
 
 ```bash
-https://raw.github.com/jtratner/vim-flavored-markdown/master/syntax/ghmarkdown.vim
+wget https://raw.github.com/jtratner/vim-flavored-markdown/master/syntax/ghmarkdown.vim
 mv ghmarkdown.vim ~/.vim/syntax/
 ```
 
