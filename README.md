@@ -61,11 +61,14 @@ Contributors
 ------------
 
 Vim-Flavored-Markdown author: Jeff Tratner ([jtratner][jtr])
+
 [markdown.vim][mdsyntax] author: Tim Pope ([tpope][tpope])
 
 [tpope]: https://github.com/tpope
 [jtr]: https://github.com/jtratner
 [mdsyntax]: https://github.com/tpope/vim-markdown
+
+Thanks to @dankosaur, @knewter, and @Niggler for contributing.
 
 
 <!--
