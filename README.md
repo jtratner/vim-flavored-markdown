@@ -26,7 +26,7 @@ If you use Pathogen, you can just clone this into your bundles
 
 ```bash
 cd ~/.vim/bundle
-git clone git@github.com:jtratner/vim-flavored-markdown.git
+git clone git://github.com/jtratner/vim-flavored-markdown.git
 ```
 
 ### Otherwise, copy the file to your syntax folder
