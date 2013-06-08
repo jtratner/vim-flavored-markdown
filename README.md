@@ -1,7 +1,8 @@
 Vim-Flavored-Markdown
 =====================
 
-A few Markdown extensions for Tim Pope's [`markdown.vim`][mdsyntax]
+Add-on to Tim Pope's [`markdown.vim`][mdsyntax] to highlight using Github
+Flavored Markdown.
 
 a syntax plugin that extends the Tim Pope's markdown syntax file to recognize
 github code blocks like:
@@ -13,9 +14,12 @@ github code blocks like:
 It also colors `markdownCode` blocks and in-lines as String, so they are more
 easily differentiable in your code.
 
-In the future, I hope to also add some of the phpMarkdown extended syntax as
-well (e.g. tables, etc), but for now, I am satisfied to just fix the syntax
-highlihting for those blocks.
+Finally, it no longer highlights multiple underscores, i.e.:
+
+```
+_this_gets_highlighted_
+but_this_does_not
+```
 
 Install
 -------
@@ -57,16 +61,19 @@ License
 
 MIT
 
-Contributors
-------------
+Contributors to Vim-Flavored-Markdown
+-------------------------------------
 
 Vim-Flavored-Markdown author: Jeff Tratner ([jtratner][jtr])
 
 [markdown.vim][mdsyntax] author: Tim Pope ([tpope][tpope])
 
+Along with all of the various [contributors to markdown.vim][contrib]
+
 [tpope]: https://github.com/tpope
 [jtr]: https://github.com/jtratner
 [mdsyntax]: https://github.com/tpope/vim-markdown
+[contrib]: https://github.com/tpope/vim-markdown/contributors
 
 Thanks to @dankosaur, @knewter, and @Niggler for contributing.
 
