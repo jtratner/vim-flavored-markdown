@@ -77,7 +77,6 @@ syn region markdownCode matchgroup=markdownCodeDelimiter start="`` \=" end=" \=`
 syn region markdownGHCodeBlock matchgroup=markdownCodeDelimiter start="^\s*$\n```\s\?\S*\s*$" end="```$\n\s*\n" contained  keepend
 
 syn match markdownEscape "\\[][\\`*_{}()#+.!-]"
-syn match markdownError "\w\@<=_\w\@="
 
 " Copying rst's method of using literal strings
 hi def link markdownGHCodeBlock           String
@@ -112,7 +111,6 @@ hi def link markdownBoldItalic            htmlBoldItalic
 hi def link markdownCodeDelimiter         Delimiter
 
 hi def link markdownEscape                Special
-hi def link markdownError                 Error
 
 let b:current_syntax = "ghmarkdown"
 
